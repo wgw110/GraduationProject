@@ -1,0 +1,23 @@
+<?xml version="1.0"?>  
+<!DOCTYPE hibernate-mapping PUBLIC   
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping>  
+    <class name="com.graduationdesign.po.User" table="user">  
+        <id name="ip" type="string">  
+            <generator class="assigned"/>  
+        </id>  
+        <property name="name" type="string">
+            <column name="name" />
+    	</property> 	
+        <property name="password" type="string">
+            <column name="password" />
+    	</property>
+    	<property name="mail" type="string">
+            <column name="mail" />
+    	</property>   
+    	<property name="prefix" type="string">
+            <column name="prefix" />
+    	</property> 	
+    </class>  
+</hibernate-mapping> 

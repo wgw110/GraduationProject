@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_60">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v6.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/lib/mysql-connector-java-5.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/lib/ognl-3.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/lib/slf4j-api-1.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/lib/slf4j-log4j12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/lib/spring.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/jfreechart-1.0.9/jfreechart-1.0.9-demo.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/jfreechart-1.0.9/lib/jfreechart-1.0.9-experimental.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/jfreechart-1.0.9/lib/gnujaxp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/jfreechart-1.0.9/lib/jcommon-1.0.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/jfreechart-1.0.9/lib/jfreechart-1.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/ganymed-ssh2-build210/ganymed-ssh2-build210.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/ant-1.6.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/ant-antlr-1.6.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/ant-junit-1.6.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/ant-launcher-1.6.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/ant-swing-1.6.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/asm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/asm-attrs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/c3p0-0.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/checkstyle-all.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/cleanimports.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/concurrent-1.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/connector.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/jaas.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/jacc-1_0-fr.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/javassist.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/jaxen-1.1-beta-7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/jboss-cache.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/jboss-common.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/jboss-jmx.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/jboss-system.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/jgroups-2.2.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/jta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/oscache-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/proxool-0.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/swarmcache-1.0rc2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/syndiag2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/versioncheck.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/xerces-2.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/hibernate-3.2/lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/最新版本struts2的九个jar包/commons-fileupload-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/最新版本struts2的九个jar包/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/最新版本struts2的九个jar包/commons-lang3-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/最新版本struts2的九个jar包/freemarker-2.3.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/最新版本struts2的九个jar包/javassist-3.11.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/最新版本struts2的九个jar包/ognl-3.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/最新版本struts2的九个jar包/struts2-core-2.3.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/最新版本struts2的九个jar包/struts2-json-plugin-2.3.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/最新版本struts2的九个jar包/xwork-core-2.3.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/jxl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/王国伟/Desktop/毕设/jfreechart-1.0.9/struts2-jfreechart-plugin-2.1.6.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

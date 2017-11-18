@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+	font-family: Arial;
+}
+/**login**/
+.login_body {
+	background: transparent;
+	background: url(../images/login.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+.zz{
+	margin-right:-10px;
+	margin-top:20px;
+}
+
+.login_div {
+	width: 500px;
+	height: 500px;
+	top: 50%;
+	left: 50%;
+	color: black;
+	margin-top: -250px;
+	margin-left: -250px;
+	position: fixed;
+	border-radius: 10px;
+	z-index: 9999;
+	background: #FFFFFF;
+	opacity: 0.7;
+	box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.login_div .login_title {
+	text-align: center;
+	font-size: 35px;
+	margin-top: 30px;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+.login_div .nav{
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	color:red;
+}
+.mes1 {
+	
+	margin-top: 100px;
+}
+
+.mes2{
+	
+	margin-top: 35px;
+}
+.mes3{
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	margin-top: 35px;
+}
+.mes4{
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	margin-top: 35px;
+}
+.mes5{
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	margin-top: 35px;
+}
+.mes6{
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.cc{
+	padding: 0px;
+	margin-left:160px;
+    margin-top:30px;
+    font-family:Arial, Tahoma, Verdana, Sans-Serif,宋体;
+}

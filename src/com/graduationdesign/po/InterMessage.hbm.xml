@@ -1,0 +1,49 @@
+<?xml version="1.0"?>  
+<!DOCTYPE hibernate-mapping PUBLIC   
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping>
+    <class name="com.graduationdesign.po.InterMessage" abstract="true">
+        <id name="id" type="integer">
+            <generator class="increment" />
+        </id>
+        <property name="date" type="string">
+            <column name="date" />
+    	</property>
+        <property name="name" type="string">
+            <column name="name" />
+    	</property>
+    	<property name="receivePackets" type="double">
+            <column name="receivePackets" />
+    	</property>
+    	<property name="sendPackets" type="double">
+            <column name="sendPackets" />
+    	</property>
+    	<property name="receiveBytes" type="double">
+            <column name="receiveBytes" />
+    	</property>
+    	<property name="sendBytes" type="double">
+            <column name="sendBytes" />
+    	</property>
+    	<property name="receiveDroped" type="double">
+            <column name="receiveDroped" />
+    	</property>
+    	<property name="sendDroped" type="double">
+            <column name="sendDroped" />
+    	</property>
+    	<property name="receiveErrors" type="double">
+            <column name="receiveErrors" />
+    	</property>
+    	<property name="sendErrors" type="double">
+            <column name="sendErrors" />
+    	</property>
+        <!--  用union-subclass元素给每个具体子类映射到一张表  -->
+        <union-subclass name="com.graduationdesign.user.User1Inet" table="wgw_InetMessage">
+            <!-- 映射本子类的属性 -->
+        </union-subclass>
+        <union-subclass name="com.graduationdesign.user.User2Inet" table="lsq_InetMessage">
+            <!-- 映射本子类的属性 -->
+        </union-subclass>
+        <!-- 可以继续添加 -->
+    </class>
+</hibernate-mapping>

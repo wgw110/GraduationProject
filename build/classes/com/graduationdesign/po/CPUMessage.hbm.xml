@@ -1,0 +1,43 @@
+<?xml version="1.0"?>  
+<!DOCTYPE hibernate-mapping PUBLIC   
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping>
+    <class name="com.graduationdesign.po.CPUMessage" abstract="true">
+        <id name="id" type="int">
+            <generator class="increment" />
+        </id>
+        <property name="date" type="string">
+            <column name="date" />
+    	</property>
+        <property name="countPercent" type="double">
+            <column name="countPercent" />
+    	</property>
+    	<property name="userPercent" type="double">
+            <column name="userPercent" />
+    	</property>
+    	<property name="sysPercent" type="double">
+            <column name="sysPercent" />
+    	</property>
+    	<property name="idlePercent" type="double">
+            <column name="idlePercent" />
+    	</property>
+    	<property name="nicePercent" type="double">
+            <column name="nicePercent" />
+    	</property>
+    	<property name="waitPercent" type="double">
+            <column name="waitPercent" />
+    	</property>
+    	<property name="countMhz" type="double">
+            <column name="countMhz" />
+    	</property>
+        <!--  用union-subclass元素给每个具体子类映射到一张表  -->
+        <union-subclass name="com.graduationdesign.user.User1CPU" table="wgw_CPUMessage">
+            <!-- 映射本子类的属性 -->
+        </union-subclass>
+        <union-subclass name="com.graduationdesign.user.User2CPU" table="lsq_CPUMessage">
+            <!-- 映射本子类的属性 -->
+        </union-subclass>
+        <!-- 可以继续添加 -->
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>  
+<!DOCTYPE hibernate-mapping PUBLIC   
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping>
+    <class name="com.graduationdesign.po.OSMessage" abstract="true">
+        <id name="id" type="integer">
+            <generator class="increment" />
+        </id>
+        <property name="date" type="string">
+            <column name="date" />
+    	</property>
+        <property name="name" type="string">
+            <column name="name" />
+    	</property>
+    	<property name="version" type="string">
+            <column name="version" />
+    	</property>
+    	<property name="vendor" type="string">
+            <column name="vendor" />
+    	</property>
+    	<property name="description" type="string">
+            <column name="description" />
+    	</property>
+    	<property name="arch" type="string">
+            <column name="arch" />
+    	</property>
+    	<property name="dataModel" type="string">
+            <column name="dataModel" />
+    	</property>
+    	<property name="cpuEndian" type="string">
+            <column name="cpuEndian" />
+    	</property>
+    	
+        <!--  用union-subclass元素给每个具体子类映射到一张表  -->
+        <union-subclass name="com.graduationdesign.user.User1OS" table="wgw_OSMessage">
+            <!-- 映射本子类的属性 -->
+        </union-subclass>
+        <union-subclass name="com.graduationdesign.user.User2OS" table="lsq_OSMessage">
+            <!-- 映射本子类的属性 -->
+        </union-subclass>
+        <!-- 可以继续添加 -->
+    </class>
+</hibernate-mapping>

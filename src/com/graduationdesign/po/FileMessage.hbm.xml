@@ -1,0 +1,46 @@
+<?xml version="1.0"?>  
+<!DOCTYPE hibernate-mapping PUBLIC   
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping>
+    <class name="com.graduationdesign.po.FileMessage" abstract="true">
+        <id name="id" type="int">
+            <generator class="increment" />
+        </id>
+        <property name="date" type="string">
+            <column name="date" />
+    	</property>
+        <property name="fileName" type="string">
+            <column name="fileName" />
+    	</property>
+    	<property name="fileDir" type="string">
+            <column name="fileDir" />
+    	</property>
+    	<property name="fileType" type="string">
+            <column name="fileType" />
+    	</property>
+    	<property name="fileTypeName" type="string">
+            <column name="fileTypeName" />
+    	</property>
+    	<property name="fileTotal" type="double">
+            <column name="fileTotal" />
+    	</property>
+    	<property name="fileUsed" type="double">
+            <column name="fileUsed" />
+    	</property>
+    	<property name="fileFree" type="double">
+            <column name="fileFree" />
+    	</property>
+    	<property name="filePercent" type="double">
+            <column name="filePercent" />
+    	</property>
+        <!--  用union-subclass元素给每个具体子类映射到一张表  -->
+        <union-subclass name="com.graduationdesign.user.User1File" table="wgw_FileMessage">
+            <!-- 映射本子类的属性 -->
+        </union-subclass>
+        <union-subclass name="com.graduationdesign.user.User2File" table="lsq_FileMessage">
+            <!-- 映射本子类的属性 -->
+        </union-subclass>
+        <!-- 可以继续添加 -->
+    </class>
+</hibernate-mapping>
